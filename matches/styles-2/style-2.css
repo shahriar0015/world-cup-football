@@ -115,6 +115,11 @@ h3 {
     margin-bottom: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 #match-button {
     background-color: red;
     color: white;
