@@ -1,0 +1,143 @@
+/* font decoration */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    align-items: center;
+}
+
+.full-page {
+    align-items: center;
+    justify-content: center;
+    border: 30px red;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.banner-info {}
+
+h2 {
+    color: white;
+    font-size: 30px;
+
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.banner-image {
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.watch-live {
+    color: white;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 10px;
+}
+
+/*container and blog style  */
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 1300px;
+
+
+}
+
+.site-info {
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-bottom: 425px;
+    margin-right: 20px;
+    width: 270px;
+    align-items: center;
+
+}
+
+
+.box {
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+
+    text-align: center;
+    background-color: white;
+}
+
+#blog-button {
+    background-color: red;
+    color: white;
+}
+
+.channels {
+    margin-left: 10px;
+}
+
+.transfer-button {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.blog-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.blog-1 {
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+
+}
+
+.time-duration {
+    display: flex;
+    justify-content: space;
+
+}
+
+#hours {
+    margin-left: 10px;
+}
+
+.comments {
+    display: flex;
+    margin-right: 170px;
+}
+
+#numbers {
+    margin-left: 10px;
+}
