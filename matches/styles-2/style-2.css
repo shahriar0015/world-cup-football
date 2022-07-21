@@ -125,25 +125,6 @@ a {
     color: white;
 }
 
-.channels {
-    margin-left: 10px;
-}
-
-.transfer-button {
-    border: 1px solid black;
-    border-radius: 3px;
-}
-
-h5 {
-    margin-top: 10px;
-}
-
-.social-media {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-
 .blog-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -155,28 +136,8 @@ h5 {
 .blog-1 {
     border-radius: 10px;
     border: 1px solid lightgrey;
-
-
 }
 
-.time-duration {
-    display: flex;
-    justify-content: space;
-
-}
-
-#hours {
-    margin-left: 10px;
-}
-
-.comments {
-    display: flex;
-    margin-right: 170px;
-}
-
-#numbers {
-    margin-left: 10px;
-}
 
 footer {
     background-color: black;
