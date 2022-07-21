@@ -1,6 +1,8 @@
 /* font decoration */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@500&display=swap');
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -51,6 +53,8 @@ p {
 }
 
 /*container and blog style  */
+
+
 .container {
     display: flex;
     align-items: center;
@@ -70,7 +74,6 @@ p {
     padding: 17px;
     margin-bottom: 370px;
     margin-right: 15px;
-
 }
 
 .box {
@@ -184,4 +187,123 @@ hr {
 
 .fa-linkedin {
     color: skyblue;
+}
+
+/* media query for tab */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .full-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+        padding-right: 3%;
+
+    }
+
+    .site-info {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 60%;
+        height: 20%;
+        margin-right: 20px;
+        align-items: center;
+
+    }
+
+    .box {
+        border: 1px solid lightgray;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .blog-info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: 80%;
+        width: 60%;
+        margin-top: -350px;
+        margin-left: 40px;
+    }
+}
+
+
+
+/* media query for mobile */
+@media only screen and (max-width:688px) {
+
+
+    .main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .full-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+        margin-right: 5%;
+        padding-right: 3%;
+    }
+
+    .site-info {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 60%;
+        height: 20%;
+        margin-right: 20px;
+        align-items: center;
+
+    }
+
+    .box {
+        border: 1px solid lightgray;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .blog-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 80%;
+        width: 40%;
+        margin-top: -350px;
+        margin-left: 200px;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .information {
+        display: flex;
+        flex-direction: column;
+    }
 }
